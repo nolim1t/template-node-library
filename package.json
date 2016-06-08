@@ -1,0 +1,32 @@
+{
+  "name": "template-node-library",
+  "description": "Enter the description of your library",
+  "homepage": "https://github.com/nolim1t/template-node-library",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/nolim1t/template-node-library.git"
+  },
+  "version": "1.0",
+  "author": "BT <bt@perceptionz.net>",
+  "keywords": [
+    "networking",
+    "url",
+    "http"
+  ],
+  "main": "./index.coffee",
+  "directories": {
+    "lib": "lib"
+  },
+  "dependencies": {
+    "coffee-script": "1.2.0",
+    "shelljs": "^0.3.0",
+    "vows": "^0.7.0"
+  },
+  "engines": {
+    "node": ">=0.10.28",
+    "npm": ">=1.4.9"
+  },
+  "scripts": {
+    "test": "vows test/* --spec"
+  }
+}
